@@ -2,6 +2,12 @@
 
 `二叉树` `层序遍历`
 
+哒哒哒哒哒～   第二篇题解来啦～  
+
+今天做的还是二叉树，关于二叉树的层序遍历，同样实现了简单解法和优化解法。
+
+另外代码和题解也可以从[我的github](https://github.com/liuzhidanhhh/LeetCodeSolution)找到: https://github.com/liuzhidanhhh/LeetCodeSolution
+
 ## 题目
 
 LeetCode117：[填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)
@@ -123,6 +129,28 @@ class Solution:
 #### 具体算法流程：
 
 引入变量cur_head当前层头节点，cur_node当前节点，next_head下一层头节点，last下一层上一个添加next指针的节点。
+
+```
+1. 初始化cur_head=root，cur_node=root
+2. 当cur_head不为空(还有层未遍历)时循环：
+   2.1 next_head=None，last=None
+   2.2 对于层内的每个节点cur_node
+   		2.2.1 如果cur_node.left存在
+   			如果next_head为空，则cur_node.left节点为下一层的头结点
+   			如果last不为空，则说明cur_node.left的上一个节点为last， 将last的next指针指向cur_node.left
+			将last指针更新为cur_node.left
+
+   		2.2.2 如果cur_node.right存在
+   			如果next_head为空，则cur_node.right节点为下一层的头结点
+   			如果last不为空，则说明cur_node.tight的上一个节点为last， 将last的next指针指向cur_node.right
+   			将last指针更新为cur_node.right
+
+   2.2  当前层遍历结束，cur_head指向下一层的头结点
+
+3. 结束，所有层遍历完，放回添加完next指针的树。
+```
+
+
 
 1. 初始化cur_head=root，cur_node=root
 
