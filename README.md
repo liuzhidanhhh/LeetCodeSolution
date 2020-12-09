@@ -7,11 +7,11 @@
 
 ### DFS
 
-1. 842题[将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/)
+1. 回溯算法： 842题[将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/)
 
 ### 其他
 
 1. 861题[翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/)
-
+2. 排列组合： 62题[不同路径](https://leetcode-cn.com/problems/unique-paths/)
 
 持续更新中...
