@@ -12,8 +12,22 @@
 ### BFS
 
 1. 面试题16.19 [水域大小](https://leetcode-cn.com/problems/pond-sizes-lcci/)
+2. 778 Dijkstra
+3. 815
+4. 847
+5. 994
+6. 1293
 
-### 其他
+### 动态规划
+
+1. 72
+2. 1289
+
+### 单调栈
+
+1. 84
+2. 85
+
 
 1. 861题 [翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/)
 2. 排列组合： 62题[不同路径](https://leetcode-cn.com/problems/unique-paths/)
