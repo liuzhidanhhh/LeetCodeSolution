@@ -28,6 +28,10 @@
 1. 84
 2. 85
 
+### 字符串
+
+1. 640
+2. 
 
 1. 861题 [翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/)
 2. 排列组合： 62题[不同路径](https://leetcode-cn.com/problems/unique-paths/)
